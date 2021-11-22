@@ -40,14 +40,13 @@ table {
 	border-spacing: 0;
 } /*CSS reset +*/
 html{
-	overflow-x: hidden; /*html balts gabaliņš bija labajā pusē /traucēja*/
+	overflow-x: hidden; 
+	/*html delete small white a piece at the left side*/
 }
 html, body {
-  height: 100%;
-  /*margin: 0;*/
-}
-body{
-	/*text-shadow: 0 0 1px black;*/
+  /* height: 100%; */
+  margin: 0;
+  padding:0;
 }
 
 /* __________________Start styles__________________ */
